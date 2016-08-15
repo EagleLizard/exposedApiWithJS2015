@@ -7,6 +7,6 @@ let testValues = [
 main();
 
 function main(){
-  let myClasses = myClass.getMyClasses(testValues);
-  myClasses.forEach((c)=>console.log(c.num));
+  myClass.getMyClasses(testValues)
+         .forEach(c=>console.log(c.num));;
 }
